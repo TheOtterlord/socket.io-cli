@@ -1,0 +1,32 @@
+{
+  "name": "socket.io-cli",
+  "version": "0.1.0",
+  "description": "A Socket.io cli",
+  "main": "src/index.js",
+  "bin": {
+    "socketio": "bin/socketio",
+    "socket-io": "bin/socketio",
+    "socketio-cli": "bin/socketio"
+  },
+  "keywords": [
+    "socket.io",
+    "socket.io-cli",
+    "socket.io-client",
+    "cli"
+  ],
+  "author": {
+    "email": "reuben.tier@icloud.com",
+    "name": "Reuben Tier",
+    "url": "https://theotterlord.github.io"
+  },
+  "repository": {
+    "url": "https://github.com/TheOtterlord/socket.io-cli",
+    "type": "git"
+  },
+  "bugs": "https://github.com/TheOtterlord/socket.io-cli/issues",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.1",
+    "socket.io-client": "^4.2.0"
+  }
+}
