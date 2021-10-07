@@ -1,12 +1,16 @@
 {
   "name": "socket.io-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Socket.io cli",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "bin": {
     "socketio": "bin/socketio",
     "socket-io": "bin/socketio",
     "socketio-cli": "bin/socketio"
+  },
+  "scripts": {
+    "dev": "tsc && socketio",
+    "prepublish": "tsc"
   },
   "keywords": [
     "socket.io",
@@ -28,5 +32,9 @@
   "dependencies": {
     "arg": "^5.0.1",
     "socket.io-client": "^4.2.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   }
 }
